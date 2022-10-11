@@ -10,7 +10,10 @@ A simple project to show the CRUD oprations in Laravel 9, while the user can bro
 ## Demo :
 
 
-https://user-images.githubusercontent.com/80907133/193422131-2350132f-55ce-4685-980c-b44058d9b0e3.mp4
+
+
+https://user-images.githubusercontent.com/80907133/195187534-17d3567a-be7a-467b-984f-d67ae92e20ea.mp4
+
 
 
 
@@ -18,6 +21,8 @@ https://user-images.githubusercontent.com/80907133/193422131-2350132f-55ce-4685-
 ## Technologies used :
 * Laravel 9 framework <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>.
 * Bootstrap 
+* Tailwind CSS
+
   
 
 
