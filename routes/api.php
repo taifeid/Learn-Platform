@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArticlesController;
 use App\Http\Controllers\CourseController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -27,4 +28,5 @@ Route::prefix('course')->group(function(){
      Route::delete('/{id}',[CourseController::class,'destroy']);
 }
 );
+Route::get('/articles',[ArticlesController::class,'index']);
 

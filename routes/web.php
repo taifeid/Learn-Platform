@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArticlesController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
@@ -23,5 +24,6 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-
 Route::resource('home', HomeController::class);
+
+Route::resource('/articles', ArticlesController::class);

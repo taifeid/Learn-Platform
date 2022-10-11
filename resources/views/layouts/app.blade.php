@@ -16,6 +16,7 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    @vite('public/css/app.css')
 </head>
 <body>
     <div id="app">
@@ -33,6 +34,9 @@
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('home.index') }}">{{ __('Courses') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('articles.index') }}">{{ __('Articles') }}</a>
                         </li>
                     </ul>
 
