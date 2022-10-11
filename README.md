@@ -5,7 +5,7 @@
 # Learn Portal
 
 ## idea of project:
- project to show the CRUD oprations in Laravel 9, while the user can browse, edit and delete the course, it is possible to register a new course, choose the preferred instructor and type of course, whether attend or remote. Authentication is applied.
+ project to show the CRUD oprations in Laravel 9, while the user can browse, edit and delete the course, it is possible to register a new course, choose the preferred instructor and type of course, whether attend or remote. Also allow user to browse articles from third party API's, Authentication is applied.
 
 ## Demo :
 
